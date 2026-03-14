@@ -19,7 +19,7 @@ This project was developed for the UIDAI Hackathon to analyze Aadhaar enrollment
 - Studied age-wise demographic trends
 
 ## Dashboard Preview
-![Dashboard](dashboard 1.jpg)
+![Dashboard](dashboard_1.jpg)
 
 ## Project Files
 - `.pbip` Power BI project
