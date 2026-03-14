@@ -1,0 +1,4 @@
+relationship 35ea5021-9105-c21a-7366-dfa01a8cc6c8
+	fromColumn: 'Enrolment All'.date
+	toColumn: 'Date Table'.Date
+

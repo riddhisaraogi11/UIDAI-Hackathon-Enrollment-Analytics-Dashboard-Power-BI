@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "AADHAR ENROLLMENT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1966f396-c03c-4d72-aef5-61548223d598"
+  }
+}

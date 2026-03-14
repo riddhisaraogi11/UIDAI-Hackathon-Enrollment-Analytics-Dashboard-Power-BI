@@ -1,0 +1,24 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["enrolment_0_500000","enrolment_500000_1000000","enrolment_1000000_1006029","Enrolment All","State_Mapping"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table enrolment_0_500000
+ref table enrolment_500000_1000000
+ref table enrolment_1000000_1006029
+ref table 'Enrolment All'
+ref table 'Measure Table'
+ref table 'Date Table'
+ref table State_Mapping
+
+ref cultureInfo en-US
+

@@ -1,0 +1,118 @@
+table 'Measure Table'
+	lineageTag: da89bf13-0823-46da-85f5-4bab5ef6c4c5
+
+	measure 'Enrol. Count' = SUMX('Enrolment All','Enrolment All'[age_0_5] + 'Enrolment All'[age_5_17] + 'Enrolment All'[age_18_greater])
+		formatString: 0
+		lineageTag: ca78d055-734f-491d-a518-f2f95dc1bc76
+
+	measure 'Average Daily Enrollments' =
+			AVERAGEX(
+			VALUES('Enrolment All'[date]),[Enrol. Count])
+		lineageTag: 735f599d-24ee-484d-abec-2b89de44a026
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'State Wise Average' =
+			AVERAGEX(
+			VALUES('Enrolment All'[state]),[Enrol. Count])
+		lineageTag: f129be51-7d4c-4f26-b6c0-f43576a8a926
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'States Covered' =
+			
+			DISTINCTCOUNT('Enrolment All'[state])
+		formatString: 0
+		lineageTag: a13a61b3-6c70-48cc-a26b-3eba5672bd45
+
+	measure 'Peak Daily Enrollments' =
+			MAXX(
+			    VALUES('Enrolment All'[date]),[Enrol. Count])
+		formatString: 0
+		lineageTag: 4d40f87d-4d92-4701-b79b-44e84a869342
+
+	measure 'Max Enrollments' = MAXX(VALUES('Enrolment All'),[Enrol. Count])
+		formatString: 0
+		lineageTag: 018c7394-0cb6-4547-bd93-47fed8a9ba0f
+
+	measure 'Monthly Enrollment Rate' =
+			
+			CALCULATE(
+			    [Enrol. Count],
+			    ALL('Enrolment All'[date]),
+			    VALUES('Enrolment All'[Month Name])
+			)
+		formatString: 0
+		lineageTag: 5fa6eba2-54cc-4935-b331-47b1b0ed6079
+
+	measure 'Previous Month Enroll.' =
+			CALCULATE(
+			                        [Enrol. Count],
+			                        DATEADD('Date Table'[Date],-1,MONTH))
+		formatString: 0
+		lineageTag: 911147c4-8253-4d88-be10-432a5c300552
+
+	measure Measure
+		lineageTag: e8cd7129-d3a8-46b1-90bf-c7139919d110
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure 'MoM Growth %' = ```
+			DIVIDE([Enrol. Count]-[Previous Month Enroll.],[Previous Month Enroll.])
+			
+			```
+		lineageTag: 184a88dc-2962-4258-b4b0-c28b2afde4ae
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Peak District Enrollment' =
+			
+			CALCULATE(
+			    MAXX(
+			        VALUES('Enrolment All'[district]),
+			        [Enrol. Count]
+			    ),
+			    REMOVEFILTERS('Date Table')
+			)
+		formatString: 0
+		lineageTag: 5e36023a-c895-4b1b-bac4-35cd74f59afc
+
+	measure 'Peak District Name' =
+			
+			VAR PeakDistrictTable =
+			    TOPN(
+			        1,
+			        VALUES('Enrolment All'[district]),
+			        CALCULATE(
+			            [Enrol. Count],
+			            REMOVEFILTERS('Date Table')
+			        ),
+			        DESC
+			    )
+			RETURN
+			    CONCATENATEX(
+			        PeakDistrictTable,
+			        'Enrolment All'[district],
+			        ", "
+			    )
+		lineageTag: bcd37881-3a8c-4187-9565-c5d5244f837d
+
+	column Column
+		formatString: 0
+		lineageTag: 6a945fc3-7f9e-452f-85de-f8c61522a581
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Measure Table' = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 902a1e7df6a14621a900c24e731da243
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":null}
+
+	annotation 277cc1b9-af89-4597-8e15-cacc25c0886b = To use special characters in a calculated table name, enclose the entire name in brackets ( [] ) and add a ] to any closing brackets in the name.
+

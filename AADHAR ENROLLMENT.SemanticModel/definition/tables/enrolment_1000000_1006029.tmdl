@@ -1,0 +1,80 @@
+table enrolment_1000000_1006029
+	lineageTag: de06c21d-c1fa-4a41-94ca-a9c67bb1cbe6
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8ac7f1d1-9d40-4ed3-961b-f033597c19e7
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column state
+		dataType: string
+		lineageTag: 42dcc28a-e819-4bf3-8e8a-f524d8a1a6e7
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: 37f478a4-16a6-400e-9606-83350367dad0
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column pincode
+		dataType: int64
+		formatString: 0
+		lineageTag: f0df2e70-c373-44ed-b5fa-e524a19c709d
+		summarizeBy: sum
+		sourceColumn: pincode
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_0_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 08f8e791-bd7e-4002-8d1f-96e4f014eacc
+		summarizeBy: sum
+		sourceColumn: age_0_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_5_17
+		dataType: int64
+		formatString: 0
+		lineageTag: acbadb8d-9830-4937-a881-d1421773ce73
+		summarizeBy: sum
+		sourceColumn: age_5_17
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_18_greater
+		dataType: int64
+		formatString: 0
+		lineageTag: f414ef77-32c9-43ef-b911-4d979d601ecc
+		summarizeBy: sum
+		sourceColumn: age_18_greater
+
+		annotation SummarizationSetBy = Automatic
+
+	partition enrolment_1000000_1006029 = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\api_data_aadhar_enrolment\api_data_aadhar_enrolment\api_data_aadhar_enrolment_1000000_1006029.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Use First Row as Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Change Type" = Table.TransformColumnTypes(#"Use First Row as Headers",{{"date", type date}, {"state", type text}, {"district", type text}, {"pincode", Int64.Type}, {"age_0_5", Int64.Type}, {"age_5_17", Int64.Type}, {"age_18_greater", Int64.Type}})
+				in
+				    #"Change Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

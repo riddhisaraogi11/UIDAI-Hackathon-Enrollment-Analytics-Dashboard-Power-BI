@@ -1,0 +1,5515 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "enrolment_0_500000": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enrolment 0 500000": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrolment_0_500000": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "enrolment_0_500000.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.pincode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "pincode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pincode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.age_0_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "age_0_5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 0 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_0_5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.age_5_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "age_5_17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 5 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_5_17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000.age_18_greater": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_0_500000",
+			          "ConceptualProperty": "age_18_greater"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 18 greater": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_18_greater": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enrolment 500000 1000000": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrolment_500000_1000000": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "enrolment_500000_1000000.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.pincode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "pincode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pincode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.age_0_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "age_0_5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 0 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_0_5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.age_5_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "age_5_17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 5 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_5_17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000.age_18_greater": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_500000_1000000",
+			          "ConceptualProperty": "age_18_greater"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 18 greater": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_18_greater": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enrolment 1000000 1006029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrolment_1000000_1006029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "enrolment_1000000_1006029.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.pincode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "pincode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pincode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.age_0_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "age_0_5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 0 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_0_5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.age_5_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "age_5_17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 5 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_5_17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029.age_18_greater": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "enrolment_1000000_1006029",
+			          "ConceptualProperty": "age_18_greater"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 18 greater": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_18_greater": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enrolment all": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "conscription all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "staffing all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "employment all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "registration all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "matriculation all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "admission all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "acceptance all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "membership all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "enrolment_all.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.pincode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "pincode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pincode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.age_0_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "age_0_5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 0 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_0_5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.age_5_17": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "age_5_17"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 5 17": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_5_17": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.age_18_greater": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "age_18_greater"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age 18 greater": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_18_greater": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.enrol__count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Enrol. Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "enrol. count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrol. amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "Total Enrollments": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "ENROLLMENT COUNT": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.average_daily_enrollments": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Average Daily Enrollments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average daily enrollments": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrollments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "daily enrollments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "measure tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "measure bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure spreadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.state_wise_average": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "State Wise Average"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state wise average": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "province wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "territory wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "condition wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "country wise average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "state wise mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "state wise norm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "state wise mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "state wise median": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "Month Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "Months": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.states_covered": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "States Covered"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "states covered": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.peak_daily_enrollments": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Peak Daily Enrollments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "peak daily enrollments": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrollments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "daily enrollments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.max_enrollments": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Max Enrollments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max enrollments": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrollments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maximum enrollment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.monthly_enrollment_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Monthly Enrollment Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly enrollment rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "enrollment rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly enrollment degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "monthly enrollment frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "monthly enrollment percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "monthly enrollment ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "monthly enrollment quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "enrollment degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "enrollment frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "enrollment percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "enrollment ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "enrollment quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.previous_month_enroll_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Previous Month Enroll."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous month enroll.": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "previous mth enroll.": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "Prev Month Enroll.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Measure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.MoM_growth_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "MoM Growth %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MoM growth %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mom growth percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mom growth pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "date_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Month Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.peak_district_enrollment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Peak District Enrollment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "peak district enrollment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "enrollment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "district enrollment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "peak district registration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "peak district matriculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "peak district admission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "peak district acceptance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "peak district membership": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "district registration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "district matriculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "district admission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "district acceptance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "district membership": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.peak_district_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure Table",
+			          "ConceptualProperty": "Peak District Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "peak district name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "peak district": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "district name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "peak district nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "peak district title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "peak district label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "peak district tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "district nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "district title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "district label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "district tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "peak region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "peak constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "state_mapping": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "State_Mapping"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state mapping": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "State_Mapping": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mapping": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "province mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "territory mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "nation mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "country mapping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "state_mapping.raw_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "State_Mapping",
+			          "ConceptualProperty": "Raw_State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "raw state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Raw_State": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "raw location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "raw province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "raw territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "raw nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "raw condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "raw country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "state_mapping.standard_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "State_Mapping",
+			          "ConceptualProperty": "Standard_State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Standard_State": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "standard location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "standard country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.standard_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "Standard_State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Standard_State": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "standard location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "standard condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "standard country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "enrolment_all.final_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Enrolment All",
+			          "ConceptualProperty": "final state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "final state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "final location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "final province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "final territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "final nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "final condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "final country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "enrolment_all_has_date_table": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "date_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_date_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_enrolment_all"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_final_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.final_state": {
+			          "Target": {
+			            "Entity": "enrolment_all.final_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.final_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_final_states"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_standard_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.standard_state": {
+			          "Target": {
+			            "Entity": "enrolment_all.standard_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.standard_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_standard_states"
+			        }
+			      ]
+			    },
+			    "state_mapping_has_standard_state": {
+			      "Binding": {
+			        "ConceptualEntity": "State_Mapping"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state_mapping": {
+			          "Target": {
+			            "Entity": "state_mapping"
+			          }
+			        },
+			        "state_mapping.standard_state": {
+			          "Target": {
+			            "Entity": "state_mapping.standard_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state_mapping"
+			            },
+			            "Object": {
+			              "Role": "state_mapping.standard_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "state_mapping_have_standard_states"
+			        }
+			      ]
+			    },
+			    "state_mapping_has_raw_state": {
+			      "Binding": {
+			        "ConceptualEntity": "State_Mapping"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state_mapping": {
+			          "Target": {
+			            "Entity": "state_mapping"
+			          }
+			        },
+			        "state_mapping.raw_state": {
+			          "Target": {
+			            "Entity": "state_mapping.raw_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state_mapping"
+			            },
+			            "Object": {
+			              "Role": "state_mapping.raw_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "state_mapping_have_raw_states"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_peak_district_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.peak_district_name": {
+			          "Target": {
+			            "Entity": "measure_table.peak_district_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.peak_district_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_peak_district_name"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_peak_district_enrollment": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.peak_district_enrollment": {
+			          "Target": {
+			            "Entity": "measure_table.peak_district_enrollment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.peak_district_enrollment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_peak_district_enrollment"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_name": {
+			          "Target": {
+			            "Entity": "date_table.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_names"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_number": {
+			          "Target": {
+			            "Entity": "date_table.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "date_table_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.year": {
+			          "Target": {
+			            "Entity": "date_table.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_years"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_MoM_growth_": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.MoM_growth_": {
+			          "Target": {
+			            "Entity": "measure_table.MoM_growth_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.MoM_growth_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_MoM_growth_"
+			        }
+			      ]
+			    },
+			    "measure_table_has_measure": {
+			      "Binding": {
+			        "ConceptualEntity": "Measure Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure_table": {
+			          "Target": {
+			            "Entity": "measure_table"
+			          }
+			        },
+			        "measure_table.measure": {
+			          "Target": {
+			            "Entity": "measure_table.measure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure_table"
+			            },
+			            "Object": {
+			              "Role": "measure_table.measure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measure_tables_have_measure"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_previous_month_enroll_": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.previous_month_enroll_": {
+			          "Target": {
+			            "Entity": "measure_table.previous_month_enroll_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.previous_month_enroll_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_previous_month_enroll_"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_monthly_enrollment_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.monthly_enrollment_rate": {
+			          "Target": {
+			            "Entity": "measure_table.monthly_enrollment_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.monthly_enrollment_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_monthly_enrollment_rate"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_max_enrollments": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.max_enrollments": {
+			          "Target": {
+			            "Entity": "measure_table.max_enrollments"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.max_enrollments"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_max_enrollments"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_peak_daily_enrollments": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.peak_daily_enrollments": {
+			          "Target": {
+			            "Entity": "measure_table.peak_daily_enrollments"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.peak_daily_enrollments"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_peak_daily_enrollments"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_states_covered": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.states_covered": {
+			          "Target": {
+			            "Entity": "measure_table.states_covered"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.states_covered"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_states_covered"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.month_name": {
+			          "Target": {
+			            "Entity": "enrolment_all.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_month_names"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.month_number": {
+			          "Target": {
+			            "Entity": "enrolment_all.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_state_wise_average": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.state_wise_average": {
+			          "Target": {
+			            "Entity": "measure_table.state_wise_average"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.state_wise_average"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_state_wise_average"
+			        }
+			      ]
+			    },
+			    "measure_table_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "Measure Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure_table": {
+			          "Target": {
+			            "Entity": "measure_table"
+			          }
+			        },
+			        "measure_table.column": {
+			          "Target": {
+			            "Entity": "measure_table.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure_table"
+			            },
+			            "Object": {
+			              "Role": "measure_table.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measure_tables_have_columns"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_average_daily_enrollments": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.average_daily_enrollments": {
+			          "Target": {
+			            "Entity": "measure_table.average_daily_enrollments"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.average_daily_enrollments"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_average_daily_enrollments"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_measure_table_enrol__count": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.enrol__count": {
+			          "Target": {
+			            "Entity": "measure_table.enrol__count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "measure_table.enrol__count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_enrol__count"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_age_18_greater": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.age_18_greater": {
+			          "Target": {
+			            "Entity": "enrolment_all.age_18_greater"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.age_18_greater"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_age_18_greater"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_age_5_17": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.age_5_17": {
+			          "Target": {
+			            "Entity": "enrolment_all.age_5_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.age_5_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_age_5_17"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_age_0_5": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.age_0_5": {
+			          "Target": {
+			            "Entity": "enrolment_all.age_0_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.age_0_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_age_0_5"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_pincode": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.pincode": {
+			          "Target": {
+			            "Entity": "enrolment_all.pincode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.pincode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_pincodes"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.district": {
+			          "Target": {
+			            "Entity": "enrolment_all.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.state": {
+			          "Target": {
+			            "Entity": "enrolment_all.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_states"
+			        }
+			      ]
+			    },
+			    "enrolment_all_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.date": {
+			          "Target": {
+			            "Entity": "enrolment_all.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Object": {
+			              "Role": "enrolment_all.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_have_dates"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_age_18_greater": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.age_18_greater": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.age_18_greater"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.age_18_greater"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_age_18_greater"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_age_5_17": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.age_5_17": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.age_5_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.age_5_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_age_5_17"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_age_0_5": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.age_0_5": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.age_0_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.age_0_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_age_0_5"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_pincode": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.pincode": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.pincode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.pincode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_pincodes"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.district": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.state": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_states"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.date": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_have_dates"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_age_18_greater": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.age_18_greater": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.age_18_greater"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.age_18_greater"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_age_18_greater"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_age_5_17": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.age_5_17": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.age_5_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.age_5_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_age_5_17"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_age_0_5": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.age_0_5": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.age_0_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.age_0_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_age_0_5"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_pincode": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.pincode": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.pincode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.pincode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_pincodes"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.district": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.state": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_states"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.date": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_have_dates"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_age_18_greater": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.age_18_greater": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.age_18_greater"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.age_18_greater"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_age_18_greater"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_age_5_17": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.age_5_17": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.age_5_17"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.age_5_17"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_age_5_17"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_age_0_5": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.age_0_5": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.age_0_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.age_0_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_age_0_5"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_pincode": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.pincode": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.pincode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.pincode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_pincodes"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.district": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.state": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_states"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.date": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Object": {
+			              "Role": "enrolment_0_500000.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_have_dates"
+			        }
+			      ]
+			    },
+			    "enrolment_all_in_final_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.final_state": {
+			          "Target": {
+			            "Entity": "enrolment_all.final_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_all.final_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_all.final_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_are_in_final_states"
+			        }
+			      ]
+			    },
+			    "enrolment_all_in_standard_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.standard_state": {
+			          "Target": {
+			            "Entity": "enrolment_all.standard_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_all.standard_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_all.standard_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_are_in_standard_states"
+			        }
+			      ]
+			    },
+			    "state_mapping_in_standard_state": {
+			      "Binding": {
+			        "ConceptualEntity": "State_Mapping"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state_mapping": {
+			          "Target": {
+			            "Entity": "state_mapping"
+			          }
+			        },
+			        "state_mapping.standard_state": {
+			          "Target": {
+			            "Entity": "state_mapping.standard_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "state_mapping.standard_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "state_mapping"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "state_mapping.standard_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "state_mapping_are_in_standard_states"
+			        }
+			      ]
+			    },
+			    "state_mapping_in_raw_state": {
+			      "Binding": {
+			        "ConceptualEntity": "State_Mapping"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state_mapping": {
+			          "Target": {
+			            "Entity": "state_mapping"
+			          }
+			        },
+			        "state_mapping.raw_state": {
+			          "Target": {
+			            "Entity": "state_mapping.raw_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "state_mapping.raw_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "state_mapping"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "state_mapping.raw_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "state_mapping_are_in_raw_states"
+			        }
+			      ]
+			    },
+			    "enrolment_all_in_measure_table_peak_district_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "measure_table.peak_district_name": {
+			          "Target": {
+			            "Entity": "measure_table.peak_district_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "measure_table.peak_district_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "measure_table.peak_district_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_are_in_peak_district_name"
+			        }
+			      ]
+			    },
+			    "enrolment_all_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.district": {
+			          "Target": {
+			            "Entity": "enrolment_all.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_all.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_all.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_are_in_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_all_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Enrolment All"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_all": {
+			          "Target": {
+			            "Entity": "enrolment_all"
+			          }
+			        },
+			        "enrolment_all.state": {
+			          "Target": {
+			            "Entity": "enrolment_all.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_all.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_all"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_all.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_all_are_in_states"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.district": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_1000000_1006029.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_are_in_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_1000000_1006029_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_1000000_1006029"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_1000000_1006029": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029"
+			          }
+			        },
+			        "enrolment_1000000_1006029.state": {
+			          "Target": {
+			            "Entity": "enrolment_1000000_1006029.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_1000000_1006029.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_1000000_1006029"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_1000000_1006029.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_1000000_1006029_are_in_states"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.district": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_500000_1000000.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_are_in_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_500000_1000000_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_500000_1000000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_500000_1000000": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000"
+			          }
+			        },
+			        "enrolment_500000_1000000.state": {
+			          "Target": {
+			            "Entity": "enrolment_500000_1000000.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_500000_1000000.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_500000_1000000"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_500000_1000000.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_500000_1000000_are_in_states"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.district": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_0_500000.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_0_500000.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_are_in_districts"
+			        }
+			      ]
+			    },
+			    "enrolment_0_500000_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "enrolment_0_500000"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "enrolment_0_500000": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000"
+			          }
+			        },
+			        "enrolment_0_500000.state": {
+			          "Target": {
+			            "Entity": "enrolment_0_500000.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "enrolment_0_500000.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "enrolment_0_500000"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "enrolment_0_500000.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "enrolment_0_500000_are_in_states"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

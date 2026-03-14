@@ -1,0 +1,56 @@
+table 'Date Table'
+	lineageTag: 6c8fee95-ad90-4eb5-b580-8308e28b9015
+
+	column Date
+		isHidden
+		formatString: Long Date
+		lineageTag: 8b04ddf5-f2a9-48b9-b2fd-618ef37cd4f6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		formatString: 0
+		lineageTag: be76a190-8e4a-4a91-9e36-ad99b8c8bd2d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number'
+		formatString: 0
+		lineageTag: b629b50f-317e-426d-83c6-8224c9d69a2c
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Number]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		lineageTag: 94e1c6d7-06cb-4d93-b3aa-5984db7375d7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Name]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Date Table' = calculated
+		mode: import
+		source = ```
+				
+				ADDCOLUMNS(
+				    CALENDAR (DATE(2025,1,1), DATE(2025,12,31)),
+				    "Year", YEAR([Date]),
+				    "Month Number", MONTH([Date]),
+				    "Month Name", FORMAT([Date], "MMM")
+				)
+				
+				```
+
+	annotation PBI_Id = cf343ea662f344d7abad5db2bdd7fc42
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "AADHAR ENROLLMENT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "62286746-7fc8-4158-95f6-d833fa0622b6"
+  }
+}

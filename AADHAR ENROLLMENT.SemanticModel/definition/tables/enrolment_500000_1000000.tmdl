@@ -1,0 +1,81 @@
+table enrolment_500000_1000000
+	lineageTag: 64b51c64-03e7-46af-bfbd-546cf3ae4de0
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e1fbbabf-430b-4f89-ba8f-3f476713682c
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column state
+		dataType: string
+		lineageTag: df4194bf-0a1f-46b1-b6d2-3a2272b213fe
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: 0562157b-7987-467f-a2c6-dd47b0d2e3ac
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column pincode
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d4af0b7-30c3-4e8b-90a1-37164826b99b
+		summarizeBy: sum
+		sourceColumn: pincode
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_0_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 32b4ae50-f717-4f5b-87c1-325ed112a6bc
+		summarizeBy: sum
+		sourceColumn: age_0_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_5_17
+		dataType: int64
+		formatString: 0
+		lineageTag: 9af211ac-f066-42f7-bba6-5b9077b8b6f6
+		summarizeBy: sum
+		sourceColumn: age_5_17
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_18_greater
+		dataType: int64
+		formatString: 0
+		lineageTag: 6be4c3e4-c684-4d3c-bf3b-d6d9b5194d78
+		summarizeBy: sum
+		sourceColumn: age_18_greater
+
+		annotation SummarizationSetBy = Automatic
+
+	partition enrolment_500000_1000000 = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\api_data_aadhar_enrolment\api_data_aadhar_enrolment\api_data_aadhar_enrolment_500000_1000000.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Use First Row as Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Change Type" = Table.TransformColumnTypes(#"Use First Row as Headers",{{"date", type date}, {"state", type text}, {"district", type text}, {"pincode", Int64.Type}, {"age_0_5", Int64.Type}, {"age_5_17", Int64.Type}, {"age_18_greater", Int64.Type}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Change Type", each ([state] <> "100000"))
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

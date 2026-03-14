@@ -1,0 +1,32 @@
+table State_Mapping
+	lineageTag: cf742a8a-e3e8-4f17-871b-43a716b48ffe
+
+	column Raw_State
+		dataType: string
+		lineageTag: 3a6e26a4-2820-4218-b3ba-7ae0ec9cc0ff
+		summarizeBy: none
+		sourceColumn: Raw_State
+
+		annotation SummarizationSetBy = Automatic
+
+	column Standard_State
+		dataType: string
+		lineageTag: b02ec3c6-c77a-4809-bad3-1254dfe015c4
+		summarizeBy: none
+		sourceColumn: Standard_State
+
+		annotation SummarizationSetBy = Automatic
+
+	partition State_Mapping = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("lZJfC4IwFMW/yujZB+mh98Loj1FCQQ/mw9WNNtAJWwv69l2dmmFTets5v3PuGLtxPFtKCgVIcjO+P1+Qo8jKFBTZ6Rwk1TOvC6Ac0MSLR/l0OwCqwFK4I9vCk+UCi79BbQTdxECYZkrf+bO8h6Iw7ftD0LwQCmdYuwq2Xh22udAZOCmhNSA+UaE5WM8ev7yolFRknCn1QhAZahpRw48csCtZMXmHHMmV6UeratTTLgouuj5fVuvjZnlwQOKmlU7HrnVCXA+OPxUpoExzuy99o8rAVCZ5Aw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Raw_State = _t, Standard_State = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Raw_State", type text}, {"Standard_State", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

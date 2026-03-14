@@ -1,0 +1,118 @@
+table 'Enrolment All'
+	lineageTag: 349b3a88-9be5-4097-a6ea-a07d7fdf6474
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0906491d-41cf-4e18-9e65-ecd482f2e47d
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column state
+		dataType: string
+		lineageTag: fa6f616a-f7e4-477a-b127-b4e168702a62
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: cb13ed6d-5a03-4559-948b-7fac9fdf60d6
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column pincode
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f725344-ee52-48c5-b485-15037dc607cc
+		summarizeBy: sum
+		sourceColumn: pincode
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_0_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 07d78d7c-1d99-44cc-9fe7-555f70c7a692
+		summarizeBy: sum
+		sourceColumn: age_0_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_5_17
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c7b2942-2d87-48f6-a824-2d5dc025e5be
+		summarizeBy: sum
+		sourceColumn: age_5_17
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_18_greater
+		dataType: int64
+		formatString: 0
+		lineageTag: f809378b-ff64-45ea-b23c-7476858d83d6
+		summarizeBy: sum
+		sourceColumn: age_18_greater
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number' = MONTH('Enrolment All'[date])
+		formatString: 0
+		lineageTag: f919c8c0-0e20-40e4-bdae-614cf7360093
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name' = FORMAT('Enrolment All'[date], "MMM")
+		lineageTag: 3b5f4218-13ba-4aef-9257-11bd66cfc94a
+		summarizeBy: none
+		sortByColumn: 'Month Number'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Standard_State
+		dataType: string
+		lineageTag: 48d05105-a92d-4b56-a717-26f6f2d5805d
+		summarizeBy: none
+		sourceColumn: Standard_State
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'final state'
+		dataType: string
+		lineageTag: 045f323b-3153-4326-af98-6f7cbe1172b0
+		summarizeBy: none
+		sourceColumn: final state
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Enrolment All' = m
+		mode: import
+		source =
+				let
+				    Source = Table.Combine({enrolment_0_500000, enrolment_500000_1000000, enrolment_1000000_1006029}),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"date", type date}}),
+				    #"Changed Type with Locale" = Table.TransformColumnTypes(#"Changed Type", {{"date", type date}}, "en-IN"),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type with Locale", each ([state] <> "100000")),
+				    #"Merged Queries" = Table.NestedJoin(#"Filtered Rows", {"state"}, State_Mapping, {"Raw_State"}, "State_Mapping", JoinKind.LeftOuter),
+				    #"Expanded State_Mapping" = Table.ExpandTableColumn(#"Merged Queries", "State_Mapping", {"Standard_State"}, {"Standard_State"}),
+				    #"Added Conditional Column" = Table.AddColumn(#"Expanded State_Mapping", "final state", each if [Standard_State] = null then [state] else [Standard_State]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added Conditional Column",{{"final state", type text}}),
+				    #"Filtered Rows1" = Table.SelectRows(#"Changed Type1", each true)
+				in
+				    #"Filtered Rows1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
